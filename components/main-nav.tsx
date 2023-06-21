@@ -4,7 +4,7 @@ import Link from "next/link"
 import { NavItem } from "@/types/nav"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
+import Image from "next/image"
 
 interface MainNavProps {
   items?: NavItem[]
@@ -12,9 +12,9 @@ interface MainNavProps {
 
 export function MainNav({ items }: MainNavProps) {
   return (
-    <div className="flex gap-6 md:gap-10">
+    <div className="flex gap-3 md:gap-3">
+      <Image src="/jmes.svg" alt="Logo" width={30} height={30} />
       <Link href="/" className="flex items-center space-x-2">
-        <Icons.logo className="h-6 w-6" />
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
       {items?.length ? (

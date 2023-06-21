@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+	<title>New Project</title>
+	<defs>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1" ><feDropShadow dx="0" dy="0" stdDeviation="8.75" flood-color="#21df00" flood-opacity="1.5"/></filter>
+		<linearGradient id="g1" x1="48.5" y1="378.5" x2="455.7" y2="321.3" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1a4b01"/>
+			<stop offset="1" stop-color="#000000"/>
+		</linearGradient>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f2" ><feDropShadow dx="0" dy="0" stdDeviation="8.75" flood-color="#21df00" flood-opacity="1.5"/></filter>
+		<linearGradient id="g2" x1="290" y1="167.5" x2="564.3" y2="129" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1a4b01"/>
+			<stop offset="1" stop-color="#000000"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { filter: url(#f1);fill: url(#g1) } 
+		.s1 { filter: url(#f2);fill: url(#g2) } 
+	</style>
+	<path id=" copy 2" class="s0" d="m377.5 139.7c14.7-16.5 40-18 56.5-3.4l8.2 7.3c16.6 14.7 18.1 39.9 3.5 56.5l-319.1 360c-14.6 16.5-39.9 18-56.4 3.4l-8.3-7.3c-16.5-14.7-18-40-3.4-56.5z"/>
+	<path id="" class="s1" d="m353.9 30.3c14.4-16.7 39.7-18.6 56.4-4.2l140.1 120.8c16.8 14.5 18.6 39.7 4.2 56.5l-54.2 62.8c-14.4 16.7-39.7 18.6-56.4 4.2l-140.1-120.8c-16.8-14.5-18.6-39.7-4.2-56.5z"/>
+</svg>
