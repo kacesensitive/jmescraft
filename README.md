@@ -1,22 +1,33 @@
-# next-template
+# JMESCraft
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+JMESCraft is a web application that allows you to generate JMESPath queries using the power of OpenAI's GPT-3.5-turbo model. This project is built using Next.js 13 and utilizes the OpenAI API.
+
+The public site can be accessed at [jmescraft.com](https://www.jmescraft.com).
+
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/kacesensitive/jmescraft.git
+```
+2. Install the dependencies:
+```
+yarn install
+```
+3. Start the development server:
+```
+yarn dev
+```
 
 ## Usage
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
+Once the development server is running, navigate to `http://localhost:3000` on your web browser to use the application.
 
-## Features
+## Bootstrapped
 
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+This project was bootstrapped with [Next Template](https://github.com/shadcn/next-template).
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+This project is licensed under the terms of the MIT License.
+
