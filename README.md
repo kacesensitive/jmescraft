@@ -2,7 +2,7 @@
 
 JMESCraft is a web application that allows you to generate JMESPath queries using the power of OpenAI's GPT-3.5-turbo model. This project is built using Next.js 13 and utilizes the OpenAI API.
 
-The public site can be accessed at [jmescraft.com](https://jmescraft.netlify.app).
+The public site can be accessed at [https://jmescraft.netlify.app](https://jmescraft.netlify.app).
 
 ## Installation
 
